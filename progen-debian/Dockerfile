@@ -8,6 +8,9 @@ RUN mkdir /home/progen && \
     sbcl  \
     cargo  \
     screenfetch \
+    yacc \
+    bison \
+    flex \
     sudo && \
     rm -rf /var/lib/apt/lists/ 
     
